@@ -1,4 +1,4 @@
-# Developer Team README
+# GPU Killers' Details
 ## About Us
 Hello! We are developer team located in the south-eastern part of Michigan, United States of America. We are a small group of like-minded programmers that are friends. While we may not be the best developers ever, we still try our hardest!
 ## Teams
