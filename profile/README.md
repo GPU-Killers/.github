@@ -41,7 +41,7 @@ We have multiple team here. Some of them are:
     - On issues that have questions or details that require administrative review and/or deal with administraive issues
 ## Members
 Organization members include:
-- @sparty182020 (Owner)
-- @DerrickGotBored
-- @PinkPygmyPuff
-- @A-Generic-Person
+- [@sparty182020](https://github.com/sparty182020) (Owner)
+- [@DerrickGotBored](https://github.com/DerrickGotBored)
+- [@PinkPygmyPuff](https://github.com/PinkPygmyPuff)
+- [@A-Generic-Person](https://github.com/A-Generic-Person)
