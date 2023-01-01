@@ -62,10 +62,10 @@ All commits made to company repos are **REQUIRED** to be signed. We have two top
 
 Public keys for both the core master and dev keys can be found on [OpenPGP Keyserver](https://keys.openpgp.org). Links:
 - [GPU Killers Master Key](https://keys.openpgp.org/vks/v1/by-fingerprint/357252F3FD7D1B6C3455A44DC332B28605B7EFE1)
-    - Personal PGP Key ID: `C332 B286 05B7 EFE1`
+    - PGP Key ID: `C332 B286 05B7 EFE1`
     - Signing Subkey ID: `D6D6 BCC7 97D7 6195`
 - [Developer Key](https://keys.openpgp.org/vks/v1/by-fingerprint/12740E1FBE15AC1D8F33B28CCBD6097FB2A16A03)
-    - Personal PGP Key ID: `CBD6 097F B2A1 6A03`
+    - PGP Key ID: `CBD6 097F B2A1 6A03`
     - Signing Subkey ID: `9B3E D537 7C22 D08C`
 
 To verify a signature, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-signatures` and confirm all the signatures match up properly. If **ANY** of them cannot be verified or are bad signatures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
