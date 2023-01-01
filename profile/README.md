@@ -36,7 +36,7 @@ We have multiple team here. Some of them are:
     - On Pull Requests that contain code that doesn't have a team for it and/or solve issues with code that connects to a language that doesn't already have a team
 - Administration
   - Team tag name: `admin`
-  - Team description: The 'admin' team is our team of administrators that manage code and members, deals with HR, handles developer specific issues (harassment, abuse, and other things), manage repos, and has full perms on all repos that are from our organization. **NOTE: Please don't mention the `admin` team unless it is necessary for them to be involved. If it is an issue that requires privacy, please email us at [admin@sparty182020.anonaddy.com](mailto:admin@sparty182020.anonaddy.com)**
+  - Team description: The 'admin' team is our team of administrators that manage code and members, deals with HR, handles developer specific issues (harassment, abuse, and other things), manage repos, and has full perms on all repos that are from our organization. **NOTE: Please don't mention the `admin` team unless it is necessary for them to be involved. If it is an issue that requires privacy, please email us at [admin@sparty18.me](mailto:admin@sparty18.me)**
   - When to mention:
     - On issues that have questions or details that require administrative review and/or deal with administrative issues
 ## Members
@@ -44,7 +44,7 @@ Organization members include:
 - [@sparty182020](https://github.com/sparty182020) (Owner)
     - Personal PGP Key ID: `CF72 C4A1 E58F CC7B`
     - Signing Subkey ID: `C351 80FA 25FE 469A`
-    - **NOTE: This user also uses the Developer Root Key for signing commits**
+    - **NOTE: This user may use administrative keys for signing commits**
 - [@DerrickGotBored](https://github.com/DerrickGotBored)
     - Personal PGP Key ID: `C0A9 EA05 C1B0 EA60`
     - Signing Subkey ID: `0649 CDEF AE94 A588`
@@ -56,7 +56,7 @@ Organization members include:
     - Signing Subkey ID: `F6E1 5793 8554 E989`
 
 ## Code signing
-All commits made to company repos are **REQUIRED** to be signed. We have two top-level signitures used. The order of the signitures go as followed:
+All commits made to company repos are **REQUIRED** to be signed. We have two top-level signatures used. The order of the signatures go as followed:
 
 `GPU Killers Master Key <admin@sparty18.me> --> Developer Key <coding@sparty182020.anonaddy.com> --> All User Keys`
 
@@ -68,4 +68,6 @@ Public keys for both the core master and dev keys can be found on [OpenPGP Keyse
     - PGP Key ID: `CBD6 097F B2A1 6A03`
     - Signing Subkey ID: `9B3E D537 7C22 D08C`
 
-To verify a signature, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-signatures` and confirm all the signatures match up properly. If **ANY** of them cannot be verified or are bad signatures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
+To verify a signature, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-sigs` and confirm all the signatures match up properly. If **ANY** of them cannot be verified or are bad signatures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
+
+> *Note: there may be a few commits made by sparty182020 which are "unverified". This is because after removing a large amount of old PGP keys from their account, and one was used for signing many commits. Those commits are still valid though.*
