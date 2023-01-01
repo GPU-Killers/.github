@@ -1,7 +1,7 @@
-<div hidden>
+<!--
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
-</div>
+-->
 
 # GPU Killers' Details ![Avatar](https://avatars.githubusercontent.com/u/113737926?s=40&v=4)
 ## About Us
@@ -62,7 +62,7 @@ Public keys for both the core master and dev keys can be found on [OpenPGP Keyse
 
 To verify a signiture, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-signitures` and confirm all the signitures match up properly. If **ANY** of them cannot be verified or are bad signitures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
 
-<div hidden>
+<!--
 -----BEGIN PGP SIGNATURE-----
 
 iQJGBAEBCAAwFiEEbnFTR139IfGBU0Eq1ta8x5fXYZUFAmOxuKMSHGFkbWluQHNw
@@ -80,4 +80,4 @@ NySyrNtRm6+Iu7l+0y93oPptEwjOZAGrhasSOCz/h7+wOGybQ8HpiDI2rn6UX8Yr
 /JQ2Xmc6DfoR
 =aXXi
 -----END PGP SIGNATURE-----
-</div>
+-->
