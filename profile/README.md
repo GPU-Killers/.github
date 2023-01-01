@@ -41,10 +41,19 @@ We have multiple team here. Some of them are:
     - On issues that have questions or details that require administrative review and/or deal with administrative issues
 ## Members
 Organization members include:
-- [@sparty182020](https://github.com/sparty182020) (Owner) (Personal PGP Key ID: `CF72 C4A1 E58F CC7B`) *Note: Uses the dev key too*
-- [@DerrickGotBored](https://github.com/DerrickGotBored) (PGP Key ID: `C0A9 EA05 C1B0 EA60`)
-- [@PinkPygmyPuff](https://github.com/PinkPygmyPuff) (PGP Key ID: `3B9D D3A2 FBB4 4826`)
-- [@A-Generic-Person](https://github.com/A-Generic-Person) (PGP Key ID: `422D 98A9 30BE 7C2F`)
+- [@sparty182020](https://github.com/sparty182020) (Owner)
+    - Personal PGP Key ID: `CF72 C4A1 E58F CC7B`
+    - Signing Subkey ID: `C351 80FA 25FE 469A`
+    - **NOTE: This user also uses the Developer Root Key for signing commits**
+- [@DerrickGotBored](https://github.com/DerrickGotBored)
+    - Personal PGP Key ID: `C0A9 EA05 C1B0 EA60`
+    - Signing Subkey ID: `0649 CDEF AE94 A588`
+- [@PinkPygmyPuff](https://github.com/PinkPygmyPuff)
+    - Personal PGP Key ID: `3B9D D3A2 FBB4 4826`
+    - Signing Subkey ID: `26DE 4289 49C0 DFA4`
+- [@A-Generic-Person](https://github.com/A-Generic-Person)
+    - Personal PGP Key ID: `422D 98A9 30BE 7C2F`
+    - Signing Subkey ID: `F6E1 5793 8554 E989`
 
 ## Code signing
 All commits made to company repos are **REQUIRED** to be signed. We have two top-level signitures used. The order of the signitures go as followed:
@@ -52,7 +61,11 @@ All commits made to company repos are **REQUIRED** to be signed. We have two top
 `GPU Killers Master Key <admin@sparty18.me> --> Developer Key <coding@sparty182020.anonaddy.com> --> All User Keys`
 
 Public keys for both the core master and dev keys can be found on [OpenPGP Keyserver](https://keys.openpgp.org). Links:
-- [GPU Killers Master Key](https://keys.openpgp.org/vks/v1/by-fingerprint/357252F3FD7D1B6C3455A44DC332B28605B7EFE1) (PGP Key ID: `C332 B286 05B7 EFE1`)
-- [Developer Key](https://keys.openpgp.org/vks/v1/by-fingerprint/12740E1FBE15AC1D8F33B28CCBD6097FB2A16A03) (PGP Key ID: `CBD6 097F B2A1 6A03`)
+- [GPU Killers Master Key](https://keys.openpgp.org/vks/v1/by-fingerprint/357252F3FD7D1B6C3455A44DC332B28605B7EFE1)
+    - Personal PGP Key ID: `C332 B286 05B7 EFE1`
+    - Signing Subkey ID: `D6D6 BCC7 97D7 6195`
+- [Developer Key](https://keys.openpgp.org/vks/v1/by-fingerprint/12740E1FBE15AC1D8F33B28CCBD6097FB2A16A03)
+    - Personal PGP Key ID: `CBD6 097F B2A1 6A03`
+    - Signing Subkey ID: `9B3E D537 7C22 D08C`
 
 To verify a signature, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-signatures` and confirm all the signatures match up properly. If **ANY** of them cannot be verified or are bad signatures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
