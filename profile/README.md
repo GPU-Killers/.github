@@ -54,6 +54,9 @@ Organization members include:
 - [@A-Generic-Person](https://github.com/A-Generic-Person)
     - Personal PGP Key ID: `422D 98A9 30BE 7C2F`
     - Signing Subkey ID: `F6E1 5793 8554 E989`
+- [@callmehspear / @Ted](https://github.com/callmehspear)
+    - Personal PGP Key ID: `BD62 C667 CA33 7860`
+    - Signing Subkey ID: `D022 4CFE 02D5 855F`
 
 ## Code signing
 All commits made to company repos are **REQUIRED** to be signed. We have two top-level signatures used. The order of the signatures go as followed:
