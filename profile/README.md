@@ -70,6 +70,6 @@ Public keys for both the core master and dev keys can be found on [OpenPGP Keyse
 
 To verify a signature, download and import the both the Master and the Developer keys along with the user's signing key and run `gpg --check-sigs` and confirm all the signatures match up properly. If **ANY** of them cannot be verified or are bad signatures not matching the provided pattern, the key and therefor the user cannot be trusted. All members with active commits with have their PGP Key IDs provided on the readme
 
-Please check [our contact policy](../policies/contact-policy.md)
+Please check [our contact policy](https://github.com/GPU-Killers/.github/blob/main/policies/contact-policy.md)
 
 > *Note: there may be a few commits made by sparty182020 which are "unverified". This is because after removing a large amount of old PGP keys from their account, and one was used for signing many commits. Those commits are still valid though.*
