@@ -1,0 +1,13 @@
+Dear Customer,
+
+This is Benjamin from GPU Killers. I will be assisting you with your issue today.
+Can you please provide me with the following information:
+- Your full name
+- Your email address
+- The specifics of the issue you are having
+
+Thank you,
+Benjamin
+GPU Killers
+
+NOTE: Please check the attached sig.asc file for the detached signature.
