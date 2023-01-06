@@ -1,0 +1,14 @@
+
+# These are supported funding model platforms
+
+github: # sparty182020
+patreon: sparty182020
+open_collective: # Replace with a single Open Collective username
+ko_fi: sparty18
+tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
+community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
+liberapay: # Replace with a single Liberapay username
+issuehunt: # Replace with a single IssueHunt username
+otechie: # Replace with a single Otechie username
+lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
+custom: ['https://www.buymeacoffee.com/sparty18', 'https://gofund.me/2a3f9575']
